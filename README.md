@@ -11,6 +11,11 @@ $foundryup
 $forge init
 ```
 
+# Install SC dependencies
+```bash
+$forge install smartcontractkit/chainlink-brownie-contracts@0.6.1 --no-commit
+```
+
 # Deploy locally
 ```bash
 $forge script script/DeploySimpleStorage.s.sol 
@@ -28,6 +33,11 @@ Create an account and app on Alchemy and use it as RPC url
 $forge script script/DeploySimpleStorage.s.sol --rpc-url ALCHEMY_URL --broadcast --private-key your_testnet_private_key
 ```
 
+# Run Tests
+-vv option allows showing console.log()
+```bash
+$forge test -vv
+```
 
 # Foundry default readMe
 
