@@ -38,7 +38,23 @@ $forge script script/DeploySimpleStorage.s.sol --rpc-url ALCHEMY_URL --broadcast
 ```bash
 $forge test -vv
 ```
+To run the tests on a local chain or a testnet:
+```bash
+$forge test -vvv --rpc-url $RPC_SEPOLIA
+```
 
+
+
+.
+
+
+.
+
+
+.
+
+
+.
 # Foundry default readMe
 
 ## Foundry
