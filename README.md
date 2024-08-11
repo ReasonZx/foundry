@@ -30,7 +30,7 @@ $forge script script/DeploySimpleStorage.s.sol --rpc-url http://127.0.0.1:8545 -
 # Deploy to a testnet
 Create an account and app on Alchemy and use it as RPC url
 ```bash
-$forge script script/DeploySimpleStorage.s.sol --rpc-url ALCHEMY_URL --broadcast --private-key your_testnet_private_key
+$forge script script/DeploySimpleStorage.s.sol --rpc-url $RPC_SEPOLIA --broadcast --private-key your_testnet_private_key
 ```
 
 # Run Tests
